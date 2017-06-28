@@ -54,6 +54,16 @@
     shotView.layer.borderColor = [UIColor redColor].CGColor;
     [self.view addSubview:shotView];
 }
+#pragma mark - 屏幕截图  iOS7之前
+- (UIImage *)captureImageFromView:(UIView *)view{
+    CGRect screenRect = view.bounds;
+    UIGraphicsBeginImageContext(screenRect.size);
+    CGContextRef contextRef = UIGraphicsGetCurrentContext();
+    [view.layer renderInContext:contextRef];
+    UIImage *returnImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return returnImage;
+}
 
 
 #pragma mark - 屏幕快照事件
