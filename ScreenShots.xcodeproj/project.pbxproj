@@ -430,7 +430,7 @@
 				DEVELOPMENT_TEAM = J9WL29R87J;
 				INFOPLIST_FILE = ScreenShots/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.370929280.TouchID;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangsk.ScreenShots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -442,7 +442,7 @@
 				DEVELOPMENT_TEAM = J9WL29R87J;
 				INFOPLIST_FILE = ScreenShots/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.370929280.TouchID;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangsk.ScreenShots;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
